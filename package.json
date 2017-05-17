@@ -1,0 +1,21 @@
+{
+  "name": "wordpress2json",
+  "version": "1.0.0",
+  "description": "Convert a WordPress XML export file to JSON",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "^2.2.0",
+    "shelljs": "^0.7.7",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "@types/shelljs": "^0.7.1",
+    "@types/yargs": "^6.6.0"
+  }
+}

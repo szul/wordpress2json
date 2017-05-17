@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "echoCommand": true,
+    "args": ["-p", "./tsconfig.json"],
+    "showOutput": "always",
+    "problemMatcher": "$tsc"
+}
